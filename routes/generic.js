@@ -1,5 +1,5 @@
 module.exports = (app)=>{
-    app.get("/elements",(req,res)=>(
-        res.render('elements.ejs')
-    )) 
+    app.get("/generic",(req,res)=>{
+        res.render('generic.ejs')
+    }) 
 }
